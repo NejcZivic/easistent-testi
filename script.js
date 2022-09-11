@@ -4,7 +4,7 @@
 // @namespace TAssistant
 // @version 1.0
 // @description An assistant for E-asistent exams
-// @description:sk Asistent za E-asistent teste.
+// @description:sk Asistent za E-asistent teste
 // @author Nejc Živic
 // @grant none
 // @match https://www.easistent.com/urniki/*
