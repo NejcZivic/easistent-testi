@@ -1,11 +1,14 @@
 // ==UserScript==
 // @name TAssistant
+// @name:sk TAsistent
 // @namespace TAssistant
 // @version 1.0
-// @description Asistent za teste v Easistentu
+// @description An assistant for E-asistent exams
+// @description:sk Asistent za E-asistent teste.
 // @author Nejc Živic
 // @grant none
 // @match https://www.easistent.com/urniki/*
+// @license MIT
 // ==/UserScript==
 
 (function () {
