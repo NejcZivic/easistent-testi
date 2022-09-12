@@ -1,11 +1,14 @@
 // ==UserScript==
 // @name TAssistant
+// @name:sk TAsistent
 // @namespace TAssistant
 // @version 1.1
-// @description Asistent za teste v Easistentu
+// @description An assistant for exams in Easistent
+// @description:sk Pomočnik za teste v Easistentu
 // @author Nejc Živic
 // @grant none
 // @match https://www.easistent.com/urniki/*
+// @license MIT
 // ==/UserScript==
 
 (function () {
@@ -271,7 +274,7 @@
     }
 
     const delExam = document.createElement("a");
-    delExam.innerText = "Izbriši Teste";
+    delExam.innerText = "Izbriši Ocenjevanja";
     delExam.classList.add("horizontal_tab");
     delExam.onclick = () => {
         localStorage.removeItem("exams");
@@ -295,14 +298,14 @@
     }
 
     const exportButton = document.createElement("a");
-    exportButton.innerText = "Izvozi Teste";
+    exportButton.innerText = "Izvozi Ocenjevanja";
     exportButton.classList.add("horizontal_tab");
     exportButton.onclick = () => {
         Export();
     };
 
     const importButton = document.createElement("a");
-    importButton.innerText = "Uvozi Teste";
+    importButton.innerText = "Uvozi Ocenjevanja";
     importButton.classList.add("horizontal_tab");
     importButton.onclick = () => {
         Import();
