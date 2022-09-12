@@ -9,9 +9,9 @@
 - Prikazovanje testov na urniku
 
 # Prihajajoče funkcije
-- Ustna spraševanja
+- ~~Ustna spraševanja~~
+- ~~Importanje/Exportanje datumov za teste~~
 - Prikaz vseh testov na seznamu
-- Importanje/Exportanje datumov za teste
 
 # Pomembno
 Ne briši piškotkov (cookie-jev) iz brskalnika, če nimaš backupanih datumov za teste saj jih bo to izbrisalo!
